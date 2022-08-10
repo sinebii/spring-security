@@ -10,9 +10,9 @@ public class ApiErrorDetail {
     private String message;
     private String details;
 
-    public ApiErrorDetail(String message, String details){
-        this.message =message;
-        this.details = details;
+    public ApiErrorDetail(String message, String details) {
         this.timeStamp = LocalDateTime.now();
+        this.message = message;
+        this.details = details;
     }
 }
